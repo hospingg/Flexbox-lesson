@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #FFFF;
+}
+body{
+    margin: 0;
+}
+h1, h2{
+    font-size: 2.2rem;
+    margin: 1rem 0;
+}
+h3{
+    font-weight:bold;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://image.ibb.co/gzOBup/showcase.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+   
+}
+.main-page img{
+    height: 180px;
+}
+.welcome-content{
+    width: 300px;
+    margin-bottom: 105px;
+}
+.welcome-content h2{
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.social-media{
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+.social-media section{
+    max-width: 307px;
+    padding: 64px 0;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    grid-gap: 20px;
+    background-color: #f4f4f4;
+}
+
+.about-us section > *{
+    color: #333;
+}
+.about-us section:first-child{
+    text-align: center;
+}
+
+.about-us section{
+    width: 100%;
+    max-width: 470px;
+}
+
+
+footer{
+    color: #FFFF;
+    padding: 2.2rem;
+    background-color: #333;
+    text-align: center;
+}
